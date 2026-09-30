@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Calebe Castro</title>
+  <desc id="desc">Banner escuro com detalhes em ciano. Engenharia de Software, projetos e aprendizado.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080e1c"/><stop offset="1" stop-color="#13233b"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#67e8f9" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1000" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1000" height="300" rx="20" fill="url(#grid)"/>
+  <path d="M40 66V40H110 M890 40H960V66 M40 234V260H110 M890 260H960V234" fill="none" stroke="#67e8f9" stroke-width="2"/>
+  <circle cx="65" cy="84" r="4" fill="#67e8f9"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
+  <text x="80" y="90" fill="#67e8f9" font-family="monospace" font-size="13" letter-spacing="2">PERFIL / CALEBE CASTRO</text>
+  <text x="62" y="161" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Calebe Castro</text>
+  <text x="65" y="201" fill="#bccbdf" font-family="Segoe UI,Arial,sans-serif" font-size="21">Engenharia de Software</text>
+  <text x="65" y="237" fill="#67e8f9" font-family="monospace" font-size="13" letter-spacing="1">PROJETOS · FORMAÇÃO · APRENDIZADO</text>
+  <g transform="translate(818 150)" fill="none" stroke="#67e8f9">
+    <circle r="63" opacity=".18"/><circle r="46" opacity=".3"/>
+    <path d="M-23-18L-42 0L-23 18 M23-18L42 0L23 18 M9-29L-9 29" stroke-width="3"/>
+    <path d="M0-73V-62 M0 62V73 M-73 0H-62 M62 0H73" opacity=".7"/>
+  </g>
+</svg>
